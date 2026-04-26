@@ -23,6 +23,11 @@ to simulate a real enterprise IT environment.
 | Group Policy — Wallpaper | ✅ Done |
 | Group Policy — Network Drive | ✅ Done |
 | Shared Folder Permissions | ✅ Done |
+| DHCP Server Setup | ✅ Done |
+| Organizational Units (OUs) | ✅ Done |
+| IT-Department Password Policy | ✅ Done |
+| Remote Desktop Services (RDP) | ✅ Done |
+| Event Viewer & Security Logs | ✅ Done |
 
 ---
 
