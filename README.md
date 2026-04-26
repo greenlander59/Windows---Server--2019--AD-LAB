@@ -175,12 +175,129 @@ to simulate a real enterprise IT environment.
 
 ---
 
+*9️⃣ DHCP Scope Created*
+
+
+![DHCP Scope](09-DHCP-Scope-Created.png)
+
+
+> Installed and configured DHCP Server role with scope
+> ITLab-DHCP-Scope assigning IPs from 192.168.56.100
+> to 192.168.56.200 automatically to domain clients
+
+---
+
+*🔟 Organizational Units Structure*
+
+
+![OUs](11-OU-IT-Department.png)
+
+
+> Created Organizational Units IT-Department and
+> HR-Department to organize domain users professionally
+> ali and Khan moved to IT-Department
+
+---
+
+*1️⃣1️⃣ HR-Department OU*
+
+
+![HR Department](12-HR-Department-Sara.png)
+
+
+> Created HR-Department OU and added user Sara
+> demonstrating multi-department AD structure
+
+---
+
+*1️⃣2️⃣ IT-Department Group Policy*
+
+
+![IT GPO](13-IT-Department-Policy-GPO.png)
+
+
+> Created IT-Department-Policy GPO linked specifically
+> to IT-Department OU for department-level policy control
+
+---
+
+*1️⃣3️⃣ Password Policy Settings*
+
+
+![Password Policy](14-Password-Policy-Enabled.png)
+
+
+> Configured password policy for IT-Department:
+> minimum 8 characters, complexity required,
+> maximum password age 90 days
+
+---
+
+*1️⃣4️⃣ DHCP Client IP Received*
+
+
+![DHCP Client](10-DHCP-Client-IP.png)
+
+
+> Windows 10 client automatically received IP 192.168.56.102
+> from DHCP server proving automatic IP assignment working
+
+---
+
+*1️⃣5️⃣ Remote Desktop Connection*
+
+
+![RDP](15-Remote-Desktop-Connection.png)
+
+
+> Connected to Windows Server 2019 remotely from
+> Windows 10 using Remote Desktop Protocol (RDP)
+
+---
+
+*1️⃣6️⃣ Server Desktop via RDP*
+
+
+![Server via RDP](16-Server-Desktop-Via-RDP.png)
+
+
+> Windows Server 2019 desktop accessed and controlled
+> remotely from Windows 10 client via RDP connection
+
+---
+
+*1️⃣7️⃣ Event Viewer Security Log*
+
+
+![Event Viewer](17-Event-Viewer-Security-Log.png)
+
+
+> Monitored security events in Event Viewer showing
+> all login attempts with Event ID 4624 filtered
+
+---
+
+*1️⃣8️⃣ Event Details — Login Audit*
+
+
+![Event Details](18-Event-Details-Login.png)
+
+
+> Security event details showing Account Name, Domain,
+> Logon ID and timestamp — used for security auditing
+
+---
+
 ## 🎯 Skills Demonstrated
 - Active Directory Administration
 - DNS Configuration & Troubleshooting
 - Group Policy Object (GPO) Management
+- DHCP Server Installation & Configuration
+- Organizational Units (OUs) Management
+- Remote Desktop Services (RDP)
+- Event Viewer & Security Log Monitoring
 - Network File Sharing & NTFS Permissions
 - VirtualBox Network Configuration
 - Windows Server 2019 Administration
 - Domain User & Group Management
-- Static IP & Network Troubleshooting
+- Password Policy Configuration
